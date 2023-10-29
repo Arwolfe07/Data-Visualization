@@ -1,0 +1,129 @@
+.navbar-container{
+    position: absolute;
+}
+
+.navbar{
+    position: fixed;
+    top: 20px;
+    left: 40px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid rgb(93, 93, 93);
+    border-radius: 10px;
+}
+
+.sidebar{
+    width: 280px;
+    min-height: 100vh;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 16%);
+    position: fixed;
+    left: -100%;
+    z-index: 10;
+    transition: 0.5s;
+}
+
+.sidebar.active{
+    left: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    font-size: 20px;
+}
+
+.header img{
+    margin-top: 20px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.side-body{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+}
+
+.side-body div{
+    margin: 8px;
+    padding: 10px 60px;
+    border-bottom: 1px solid rgb(170, 170, 170);
+    cursor: pointer;
+}
+
+.side-body a{
+    text-decoration: none;
+    
+    padding: 10px 40px;
+    color: rgb(170, 170, 170);
+    text-align: center;
+}
+
+.side-body div:hover{
+    border-bottom: 1px solid black;
+}
+
+.side-body a:hover{
+    color: black;
+}
+
+.disable{
+    pointer-events: none;
+}
+
+.foot-side{
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot-side button{
+    padding: 10px 20px;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    position: absolute;
+}
+
+.foot-side button:hover{
+    background-color: #e9e9e9;
+}
+
+.btn-cross{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.l{
+    bottom: 10px;
+    left: 0px;
+}
+.r{
+    bottom: 10px;
+    right: 0px;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    visibility: hidden;
+    z-index: 5;
+}
+
+.overlay.active{
+    visibility: visible;
+}
+
+

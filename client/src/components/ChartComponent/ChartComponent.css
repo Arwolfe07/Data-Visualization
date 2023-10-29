@@ -1,0 +1,32 @@
+.chart-component{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filter-section{
+    position: fixed;
+    top: 50px;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.filter-section select{
+    padding: 5px 5px;
+    border: 1px solid grey;
+    outline: none;
+}
+
+@media screen and (max-width: 426px) {
+    .chart-component{
+        margin-top: 200px;
+    }
+
+    .filter-section{
+        top: 100px;
+    }
+}
