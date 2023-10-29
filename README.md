@@ -14,7 +14,7 @@
 
 ## Note
 * This project contains some info (.env file) that has been hidden for security purposes so please enter your credentials on cloning the repo
-* This project is complete
+* This project is complete - [Link](https://653e08e5bf18b346d8e62e56--meek-cascaron-718ed4.netlify.app/)
 
 ## Build using
 
